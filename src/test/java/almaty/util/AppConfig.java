@@ -1,4 +1,4 @@
-package main.java.kz.almaty.util;
+package almaty.util;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
