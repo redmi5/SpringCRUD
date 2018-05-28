@@ -13,7 +13,7 @@
 <body>
 <h3>  Proselyte presents</h3>
 <br/>
-<a href="pages" target="_blank">Book list </a>
+<a href="pages" target="_blank">Books list </a>
 <br/>
 </body>
 </html>
