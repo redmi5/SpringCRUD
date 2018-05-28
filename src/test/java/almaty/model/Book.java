@@ -3,7 +3,7 @@ package almaty.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name="books")
+@Table(name= "pages")
 public class Book {
     @Id
     @Column(name="id")

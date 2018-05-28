@@ -36,7 +36,7 @@
 
     <!--BookDao and BookService beans-->
     <bean id="bookDao" class="kz.almaty.dao.BookDaoImpl">
-        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+       <!-- <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>-->
     </bean>
 
     <bean id="bookService" class="kz.almaty.service.BookServiceImpl">
@@ -46,7 +46,7 @@
 
     <tx:annotation-driven transaction-manager="transactionManager"/>
     <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
-        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+       <!-- <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>-->
     </bean>
     <mvc:default-servlet-handler/>
     <mvc:annotation-driven/>
